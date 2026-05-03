@@ -1,0 +1,31 @@
+# Maven build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
