@@ -22,7 +22,6 @@
 	<context:component-scan base-package="com.quhaodian.workflow" />
 
 
-	<!-- 对包中的所有类进行扫描，以完成Bean创建和自动依赖注入的功能 需要更改 -->
 	<context:component-scan base-package="com.quhaodian" />
 
 	<bean id="propertyConfigurer"
@@ -52,7 +51,7 @@
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</prop>
 				<prop key="hibernate.show_sql">false</prop><!-- -->
 				<prop key="hibernate.format_sql">true</prop>
-				<prop key="hibernate.hbm2ddl.auto">update</prop> <!--none update  create create-drop validate-->
+				<prop key="hibernate.hbm2ddl.auto">update</prop> 
 				<prop key="hibernate.jdbc.batch_size">20</prop>
 			</props>
 		</property>
